@@ -12,27 +12,29 @@ header{
 
 .cont {
     display: inline-block;
-    width: 30vw;
+    width: 100vw;
     height: 20vh;
   }
 
-.cont > .logo{
-    display: inline-block;
-    position: absolute;
-    top: 3vh;
-    left: 5vw;
-    background-size: cover;
+.logo{
+    background-image: url(airbnb-512.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 20vh;
+    width: 25vw;
 }
 
 .titolo{
-    display: inline-block;
     position: absolute;
+    width: 70vw;
+    height: 20vh;
     color: whitesmoke;
-    font-size: 30px;
-    font: Helvetica;
+    font-size: 20px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    right: 50%;
+    transform: translate(-50%, -50%, -50%);
 }
 
 .verona{                                       /*inserimento e impostazione immagine 1*/
